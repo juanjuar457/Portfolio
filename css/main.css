@@ -17,7 +17,10 @@ a {
 }
 
 img {
-  max-width: 100%;
+  display: block;
+  max-width: 384px;
+  border: solid 2px #3f3f3f;
+  border-radius: 6px;
 }
 
 h3 {
@@ -25,6 +28,10 @@ h3 {
 }
 
 
+
+.pnl {
+  margin-top: 20px;
+}
 
 /**********************************
 HEADING
@@ -143,7 +150,9 @@ PAGE: ABOUT
   border-radius: 100%;
 }
 
-
+.ss-icon {
+  font-size: 35px;
+}
 
 /**********************************
 PAGE: CONTACT

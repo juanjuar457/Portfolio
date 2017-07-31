@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Juan Juarez </title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link href="webfonts/ss-social-circle.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -24,13 +25,58 @@
         </ul>
       </nav>
     </header>
-    <div id="wrapper">
       <section>
-        <ul id="gallery">
-          <li>
-            <a href="img/numbers-01.jpg">
-              <img src="img/numbers-01.jpg" alt="">
-              <h2>The Pet Chooser</h2>
+          <div class="row pnl">
+        <div class="col-md-6">
+          <a href="http://www.google.com"> <img src="assets/petchooser.png" alt="The Pet Chooser Capstone Project" class="pull-right"> </a>
+        </div>
+        <div class="col-md-6">
+          <a href="http://www.google.com">
+            <h2>The Pet Chooser Capstone Project</h2>
+            <p>
+
+              The Pet Chooser uses the Petfinder API and the Etsy API, each load a dog from their <br>
+              respective sites and allow a user to choose a real dog to adopt from Petfinder <br>
+              or allows the user to choose a stuffed animal dog from a pre selected Etsy store. <br>
+              Selection happens based on breed and the user has a forward and backward button they can use to<br>
+              refresh the selection until something they like appears.<br>
+
+              The Pet Chooser was made with javascript, jquery and AJAX.
+              <div>
+                <a href="https://github.com/juanjuar457/PetChooserAPI" class="ss-icon">Github</a>
+                <a href="http://jbjuarez.net" class="ss-icon">Link</a>
+              </div>
+        </p>
+          </a>
+        </div>
+      </div>
+        <div class="row pnl">
+          <div class="col-md-6">
+            <a href="http://www.google.com"> <img src="assets/ofl.png" alt="order for later v0.1" class="pull-right"> </a>
+          </div>
+          <div class="col-md-6">
+            <a href="http://www.google.com">
+              <h2>Order For Later</h2>
+              <p>
+                Order For Later is a web app that serves as a white board replacement for the compounding pharmacy<br>
+                I work in. Each department requires different materials to be ordered throughout the week and <br>
+                instead of having to write everything on a white board, when a department needs to order something<br>
+                 they can simply visits the web app address and add the requested material.<br>
+                Order For Later then adds the material to a database that is then viewable once the page is refreshed.<br>
+                A user has the ability to delete and item and highlight any material to indicate if an item is on back order<br>
+
+                Order For Later uses, javascript, jquery, node.js and express and MongoDB for the Database structre <br>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row pnl">
+          <div class="col-md-6">
+            <a href="http://www.google.com"> <img src="assets/otcreserverapp.png" alt="" class="pull-right"> </a>
+          </div>
+          <div class="col-md-6">
+            <a href="http://www.google.com">
+              <h2>OTC reserve helper</h2>
               <p>
                 This Single page project was made with javascript and jQuery, <br>
                 It uses the Petfinder API and the Etsy API, each load a dog from their <br>
@@ -44,39 +90,15 @@
 
               </p>
             </a>
-          </li>
-          <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>Playing with blending modes in Photoshop.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-06.jpg">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Trying to create an 80's style of glows.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-09.jpg">
-              <img src="img/numbers-09.jpg" alt="">
-              <p>Drips created using Photoshop brushes.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-12.jpg">
-              <img src="img/numbers-12.jpg" alt="">
-              <p>Creating shapes using repetition.</p>
-            </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
       <footer>
         <!--put linkedin and github here-->
-        <a href="http://twitter.com/nickrp"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/nickpettit"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <!--include the symbols pack, for git hub, linkedin etc...-->
+        <a href=""></a>
+        <a href=""></a>
         <p>&copy; 2017 Juan Juarez</p>
       </footer>
-    </div>
   </body>
 </html>
