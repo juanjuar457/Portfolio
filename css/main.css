@@ -4,6 +4,8 @@ GENERAL
 
 body {
   font-family: 'Signika', sans-serif;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #wrapper {
@@ -16,22 +18,23 @@ a {
   text-decoration: none;
 }
 
-img {
-  display: block;
-  max-width: 384px;
-  border: solid 2px #3f3f3f;
-  border-radius: 6px;
+.projectImage img {
+  opacity: 0.4;
 }
 
 h3 {
   margin: 0 0 1em 0;
 }
 
-
-
 .pnl {
   margin-top: 20px;
 }
+
+.projectImage {
+  border: solid 2px #3f3f3f;
+  border-radius: 6px;
+}
+
 
 /**********************************
 HEADING
@@ -152,7 +155,9 @@ PAGE: ABOUT
 
 .ss-icon {
   font-size: 35px;
+  text-decoration: none;
 }
+
 
 /**********************************
 PAGE: CONTACT
@@ -194,41 +199,41 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: rgba(40,109,168,0.4);
+  color: #286da8;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #286da8;
+  border:4px solid #438496;
 }
 
 /* nav background on mobile */
-nav {
-  background: #599a68;
-}
 
 /* logo text */
 h1, h2 {
-  color: #fff;
+  color: #000;
 }
 
 /* links */
-a {
-  color: #6ab47b;
-}
-
-/* nav link */
-nav a, nav a:visited {
+a, a:hover, a:active{
   color: #fff;
+  text-decoration: none;
+
 }
 
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
-}
 
+/*summer sky */
+/*#286DA8*/
+
+/*warm peach */
+/*#cd5360*/
+
+/*fieldset#B3754e*/
+
+/*breeze*/
+/*#438496*/
 
 
 
