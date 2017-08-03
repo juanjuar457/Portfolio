@@ -18,24 +18,47 @@ a {
   text-decoration: none;
 }
 
-.projectImage img {
-  opacity: 0.4;
-}
 
 h3 {
   margin: 0 0 1em 0;
 }
 
-.pnl {
-  margin-top: 20px;
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
 }
+
 
 .projectImage {
-  border: solid 2px #3f3f3f;
-  border-radius: 6px;
+  padding:1px;
+  border:2px solid #3f3f3f;
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  opacity: 0.4;
+  border-radius: 15px;
 }
 
+#truck {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 25px;
+}
 
+#dog {
+  display: block;
+  height: 238px;
+  width: 181px;
+  margin: 3px 35px;
+}
+
+#memo {
+  display: block;
+  height: 225px;
+  width: 203px;
+  margin: 12px 22px;
+}
 /**********************************
 HEADING
 ***********************************/
@@ -213,7 +236,7 @@ header {
 
 /* logo text */
 h1, h2 {
-  color: #000;
+  color: #fff;
 }
 
 /* links */
